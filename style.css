@@ -51,6 +51,7 @@ header{
     margin-bottom: 63px;
     text-align: center;
 }
+
 /*Separar um card do outro*/
 #cards{
     display: flex;
@@ -68,6 +69,7 @@ header{
     border-radius: 6px;
    
 }
+
 /* estilo do dia mes*/
 .card h2{
     display: flex;
@@ -87,19 +89,29 @@ header{
 }
 
 /* estilo do dia da semana*/
-.card h2 span{
+.card h2 span {
 
     color : #E1E1E6;
     font-size: 14px;
     text-transform: uppercase;
 
 }
+/*estilo da rodada*/
+.card h4{
+    margin-bottom: 60px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
 /* estilo do Horario-alinhamento*/
-.card ul li{
+.card ul li { 
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
+}
+.card ul li {
+    
 }
 /*estilo da linha entre jogos/alinhamento*/
 .card ul {
@@ -119,12 +131,37 @@ header{
 /* estilo do Horario/fonte/tamanho*/
 .card ul li strong{
     font-weight: 900;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 125%;
     
 
     color: #D9D9D9;
 }
+/*estilo do menu grupos*/
+#menu{
+    background-color: #1d1c19;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffffff48;
+    flex-wrap: wrap;
+}
+/*estilo core/tamanho do texto grupos*/
+#menu a{
+    color: white;
+    padding: 09px;
+    cursor: pointer;
+    transition: all  .3s ease;
+}
+
+/*estilo ao passar o mouse no menu grupos*/
+#menu a:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #261118;
+}
+
 /*criar animação para bandeiras*/
 .card h2:hover,
 .card ul li strong:hover,
@@ -136,6 +173,19 @@ header{
 .card ul li strong,
 .card ul li img{
     transition: transform 0.3s;
+}
+
+.card ul li img{
+   max-width: 50px; 
+}
+
+figcaption.name-country{
+    display: block;
+    margin-top: 8px;
+
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #D9D9D9;
 }
 
 .card {
@@ -173,3 +223,9 @@ header{
         flex-wrap: wrap;
     }
 }
+
+.card ul li figure{
+    width: 100px;
+    color: #fff;
+}
+
