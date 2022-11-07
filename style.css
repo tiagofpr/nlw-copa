@@ -110,9 +110,7 @@ header{
     justify-content: space-between;
     
 }
-.card ul li {
-    
-}
+
 /*estilo da linha entre jogos/alinhamento*/
 .card ul {
     display: flex;
@@ -139,7 +137,7 @@ header{
 }
 /*estilo do menu grupos*/
 #menu{
-    background-color: #1d1c19;
+    background-color: #323238;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
