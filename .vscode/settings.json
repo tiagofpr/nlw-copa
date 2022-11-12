@@ -1,5 +1,5 @@
 {
-    "liveServer.settings.port": 5500,
+    "liveServer.settings.port": 5501,
     //"liveServer.settings.root": "/src",
     "liveServer.settings.CustomBrowser" : "microsoft-edge",
     //"liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito --remote-debugging-port=9222",
